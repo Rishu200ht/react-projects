@@ -1,4 +1,4 @@
-import {useRef, useState } from 'react'
+import {useRef, useState, useEffect} from 'react'
 import './App.css'
 
 function App() {
@@ -52,6 +52,7 @@ function App() {
    function resetTimer(){
     stopTimer();
     setTime(0)
+
     
   }
 
@@ -75,7 +76,7 @@ function App() {
     //   </button>
 
     //   <div>
-    //     <p>Count is : <b>{count}</b></p>
+    //     <p>Count is :{count}</p>
     //   </div>
     // </div>
 
